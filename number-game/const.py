@@ -1,0 +1,2 @@
+MIN_NUM = 0
+MAX_NUM = 99
