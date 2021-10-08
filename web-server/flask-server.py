@@ -9,7 +9,7 @@ def index():
 
 
 @app.get('/hello/<name>')
-def hello(name):
+def hello(name: str):
     return render_template('hello.html', name=name)
 
 

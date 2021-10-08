@@ -1,7 +1,6 @@
 from typing import List
 import util.io.number_input as ni
 
-
 print(ni.input_int_between(1, 9))
 print(ni.input_float_between(0.1, 9.9))
 #print('Hetta smakkar illa'.replace('smakk', 'lukt').replace('illa', 'væl'))
