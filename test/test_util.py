@@ -1,6 +1,9 @@
 from typing import List
+import util.io.number_input as ni
 
-#rint(util.input_float('halló'))
+
+print(ni.input_int_between(1, 9))
+print(ni.input_float_between(1, 9))
 #print('Hetta smakkar illa'.replace('smakk', 'lukt').replace('illa', 'væl'))
 x = 0
 if x > 0:
